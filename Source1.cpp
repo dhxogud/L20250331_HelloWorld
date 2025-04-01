@@ -4,15 +4,19 @@ using namespace std;
 
 int main()
 {
-	int Number1 = 1000;
-	int Number2 = 1000;
+	int Number1 = 4;
+	int Number2 = 6;
 
+	float Float1 = 4.4f;
+	float Float2 = 6.6f;
 
-	float A = (float)5;
-	int B = (int)A;
-
-
-	cout << A << endl;
-
-	return 0;
+	cout << Number1 + Number2 << endl;
+	cout << Number1 - Number2 << endl;
+	cout << Number1 * Number2 << endl;
+	cout << Number1 / Number2 << endl;
+	cout << "" << endl;
+	cout << Float1 + Float2 << endl;
+	cout << Float1 - Float2 << endl;
+	cout << Float1 * Float2 << endl;
+	cout << Float1 / Float2 << endl;
 }
